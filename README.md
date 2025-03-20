@@ -9,7 +9,10 @@ The method comprises a single function `get_congruent_branch_length_tree`
 `  zero_sample_overrule,`  
 `  output_tree_name)`    
   
-
+`species_tree` the file name of the species tree on which you will map the branch lengths  
+`gene_tree_directory` the directory in which your gene trees are located
+`zero_sample_overule` boolean, if TRUE will continue to output branch lengths even if there are no gene trees congruent for more than one species tree branch. Such branches will have a length of 0. If FALSE it will exit  
+`output_tree_name` file name for output branch length tree. A further "information tree" will also be written. On this tree, the branch lengths correspond to the number of gene trees that provided information for a given species tree branch. i.e. the number that were congruent.
 
 
 
