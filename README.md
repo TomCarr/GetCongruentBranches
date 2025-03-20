@@ -19,12 +19,8 @@ Note that the method can be used with any type of branch length. Although as dis
 ## Some simple worked examples
 <div align="left">
   <img src="images/congruent_1.png" width="300"/>
-</div>
-
-<div align="right">
   <img src="images/congruent_1b.png" width="300"/>
 </div>
-
 
 
 
