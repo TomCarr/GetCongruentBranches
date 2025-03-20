@@ -3,11 +3,11 @@ This is mainly just an overdue user friendly version of the "congruent branches"
 
 The method works by searching for branches accross all gene trees that are congruent with species tree branches. Species tree branch lengths are then calculated as the mean accross all gene tree branches that are congruent with that branch. There are some simple worked examples below.
 
-The method comprises a single function `get_congruent_branch_length_tree`
-`get_congruent_branch_length_tree(species_tree,\n
-  gene_tree_directory,\n
-  zero_sample_overrule,\n
-  output_tree_name)`\n
+The method comprises a single function `get_congruent_branch_length_tree`  
+`get_congruent_branch_length_tree(species_tree,  
+  gene_tree_directory,  
+  zero_sample_overrule,  
+  output_tree_name)`  
   
 
 
