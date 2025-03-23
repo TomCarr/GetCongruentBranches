@@ -25,7 +25,10 @@ There are 100 gene trees, 50 are like the one on the left, 50 are like the one o
   <img src="images/Congruent_1b.png" width="300"/>
 </div>
 The estimated branches for the species tree are as shown below left. Note the longer branch is 0.75 - 50 gene trees are 0.5 for this branch and 50 gene trees are 1 for this branch. All gene tree branch lengths are used because all gene trees are congruent with the species tree. This is also reflected in the information tree shown below right, where all branch lengths are 100. 
-
+<div align="left">
+  <img src="images/Result_1_branch_lengths.png" width="300"/>
+  <img src="images/Result_1_information.png" width="300"/>
+</div>
 
 
 
