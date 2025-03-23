@@ -39,7 +39,7 @@ There are 100 gene trees, 50 are like the one on the left, 50 are like the one o
 Therefore in this case, the longer branch in the incongruent gene tree does not contribute to the estimate of any branch length in the species tree. Note this is also represented in the information tree where only 50 trees contribute branch lenght information in the ((A,B),(C,D)).
 <div align="left">
   <img src="images/Result_2_branch_lengths.png" width="300"/>
-  <img src="images/Result_2_information.png" width="300"/>
+  <img src="images/Result_2_information_tree.png" width="300"/>
 </div>
 
 
