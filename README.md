@@ -21,7 +21,7 @@ These are not necessarily biologicall realistic. They are just illustrative of h
 ### No incongruence
 There are 100 gene trees, 50 are like the one on the left, 50 are like the one on the right. The species tree has the same branching order as these gene trees.
 <div align="left">
-  <img src="images/Congruent_1.png" width="300"/>
+  <img src="images/Congruent_1.png" width="300" height="300"/>
   <img src="images/Congruent_1b.png" width="300"/>
 </div>
 The estimated branches for the species tree are as shown below left. Note the longer branch is 0.75 - 50 gene trees are 0.5 for this branch and 50 gene trees are 1 for this branch. All gene tree branch lengths are used because all gene trees are congruent with the species tree. This is also reflected in the information tree shown below right, where all branch lengths are 100. 
@@ -60,5 +60,8 @@ The species tree is a little bigger. Consider the branch subtending the clade of
   <img src="images/Congruent_4.png" width="300"/>
   <img src="images/Congruent_4b.png" width="300"/>
 </div>
-These trees are still used for estimating the length of the subtending branch nonetheless. As such, that branch has a length of 0.75 (0.5 in the congruent, and 1 in the incongruent). You can see what is going on in the information tree too.
-
+The trees with C1 and D1 are still used for estimating the length of the branch subtending ((C1,C2),(D1,D2)) in the species tree. As such, that branch has a length of 0.75 in thespecies tree (0.5 in the fully sampled tree, and 1 in the incompletely sampled tree). You can see what is going on in the information tree too.
+<div align="left">
+  <img src="images/Result_4_branch_lengths.png" width="300"/>
+  <img src="images/Result_4_information_tree.png" width="300"/>
+</div>
