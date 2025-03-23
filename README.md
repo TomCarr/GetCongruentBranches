@@ -54,4 +54,5 @@ The incongruent clade is subtended by the longer branch but is ignored when calc
   <img src="images/Result_3_information_tree.png" width="300"/>
 </div>
 
-
+### Limited sampling that does not matter
+The species tree is a little bigger. Consider the branch subtending the clade of ((C1,C2),(D1,D2)). 50 of the gene trees only have C1 and D1.
