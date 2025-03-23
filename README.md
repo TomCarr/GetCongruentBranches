@@ -18,7 +18,7 @@ Note that the method can be used with any type of branch length. Although as dis
 
 ## Some simple worked examples
 These are not necessarily biologicall realistic. They are just illustrative of how the method works.
-### A very simeple case
+### A very simple case with no incongruence
 There are 100 gene trees, 50 are like the one on the left, 50 are like the one on the right. The species tree has the same branching order as these gene trees.
 <div align="left">
   <img src="images/Congruent_1.png" width="300"/>
