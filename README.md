@@ -44,4 +44,11 @@ Therefore in this case, the longer branch in the incongruent gene tree does not 
 
 ### Another case with some incongruence
 In this case, we have a different pattern of incongruence. Same situation, 50 gene trees are incongruent, 50 are congruent.
+<div align="left">
+  <img src="images/Congruent_3.png" width="300"/>
+  <img src="images/Congruent_3b.png" width="300"/>
+</div>
+The incongruent clade is subtended by the longer branch but is ignored when calculating the branch lengths in the species tree. Note how there are a lot of 50s in the information tree. This is because all these branches are all impacted by the incongruence.
+
+
 
