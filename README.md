@@ -49,6 +49,9 @@ In this case, we have a different pattern of incongruence. Same situation, 50 ge
   <img src="images/Congruent_3b.png" width="300"/>
 </div>
 The incongruent clade is subtended by the longer branch but is ignored when calculating the branch lengths in the species tree. Note how there are a lot of 50s in the information tree. This is because all these branches are all impacted by the incongruence.
-
+<div align="left">
+  <img src="images/Result_3_branch_lengths.png" width="300"/>
+  <img src="images/Result_3_information_tree.png" width="300"/>
+</div>
 
 
