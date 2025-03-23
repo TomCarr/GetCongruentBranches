@@ -60,5 +60,5 @@ The species tree is a little bigger. Consider the branch subtending the clade of
   <img src="images/Congruent_4.png" width="300"/>
   <img src="images/Congruent_4b.png" width="300"/>
 </div>
-These trees are still used for estimating the length of the subtending branch nonetheless.
+These trees are still used for estimating the length of the subtending branch nonetheless. As such, that branch has a length of 0.75 (0.5 in the congruent, and 1 in the incongruent). You can see what is going on in the information tree too.
 
