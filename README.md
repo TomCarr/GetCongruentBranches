@@ -30,7 +30,12 @@ The estimated branches for the species tree are as shown below left. Note the lo
   <img src="images/Result_1_information.png" width="300"/>
 </div>
 
-
+### A very simple case with a little bit of incongruence
+There are 100 gene trees, 50 are like the one on the left, 50 are like the one on the right. The species tree has the branching order/topology of the tree on the left i.e. the tree on the right is inconrgurent with species tree.
+<div align="left">
+  <img src="images/Congruent_2.png" width="300"/>
+  <img src="images/Congruent_2b.png" width="300"/>
+</div>
 
 
 
