@@ -21,7 +21,7 @@ These are not necessarily biologicall realistic. They are just illustrative of h
 ### No incongruence
 There are 100 gene trees, 50 are like the one on the left, 50 are like the one on the right. The species tree has the same branching order as these gene trees.
 <div align="left">
-  <img src="images/Congruent_1.png" width="300" height="300"/>
+  <img src="images/Congruent_1.png" width="300" height="150"/>
   <img src="images/Congruent_1b.png" width="300"/>
 </div>
 The estimated branches for the species tree are as shown below left. Note the longer branch is 0.75 - 50 gene trees are 0.5 for this branch and 50 gene trees are 1 for this branch. All gene tree branch lengths are used because all gene trees are congruent with the species tree. This is also reflected in the information tree shown below right, where all branch lengths are 100. 
@@ -67,5 +67,17 @@ The trees with C1 and D1 are still used for estimating the length of the branch 
 </div>
 
 ### Limited sampling that does matter
-In this case there is also limited sampling in half the gene trees. The limited sampling tree is missing D1 and D2.
+In this case there is also limited sampling in half the gene trees. The limited sampling tree is missing D1 and D2. 50 gene trees are like this (below right), 50 are fully sampled (below left).
+<div align="left">
+  <img src="images/Congruent_5.png" width="300"/>
+  <img src="images/Congruent_5b.png" width="300"/>
+</div>
+The limited sampling tree does not provide any useful information about the branch subtending the clade of ((C1,C2),(D1,D2)). It therefore does not contribute to the estimation of branch lengths in the species tree. Again, the information tree can be useful for seeing what is going on.
+<div align="left">
+  <img src="images/Result_5_branch_lengths.png" width="300"/>
+  <img src="images/Result_5_information_tree.png" width="300"/>
+</div>
+
+
+
 
