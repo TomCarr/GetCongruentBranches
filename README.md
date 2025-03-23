@@ -65,3 +65,7 @@ The trees with C1 and D1 are still used for estimating the length of the branch 
   <img src="images/Result_4_branch_lengths.png" width="300"/>
   <img src="images/Result_4_information_tree.png" width="300"/>
 </div>
+
+### Limited sampling that does matter
+In this case there is also limited sampling in half the gene trees. The limited sampling tree is missing D1 and D2.
+
