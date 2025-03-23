@@ -42,6 +42,6 @@ Therefore in this case, the longer branch in the incongruent gene tree does not 
   <img src="images/Result_2_information_tree.png" width="300"/>
 </div>
 
-
-
+### Another case with some incongruence
+In this case, we have a different pattern of incongruence. Same situation, 50 gene trees are incongruent, 50 are congruent.
 
