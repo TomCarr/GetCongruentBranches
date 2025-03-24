@@ -9,8 +9,8 @@ There is one function: `get_congruent_branch_length_tree`
 `get_congruent_branch_length_tree(species_tree,`  
 `  gene_tree_directory,`  
 `  zero_sample_overrule,`  
-`  loci_lengths,`
-`  output_tree_name)`
+`  loci_lengths,`  
+`  output_tree_name)`  
 
 ## Usage 
 `species_tree` the file name of the species tree on which you will map the branch lengths  
