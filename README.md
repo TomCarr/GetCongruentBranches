@@ -22,65 +22,68 @@ These are not necessarily biologicall realistic. They are just illustrative of h
 There are 100 gene trees, 50 are like the one on the left, 50 are like the one on the right. The species tree has the same branching order as these gene trees.
 <div align="left">
   <img src="images/Congruent_1.png" width="300" height="150"/>
-  <img src="images/Congruent_1b.png" width="300"/>
+  <img src="images/Congruent_1b.png" width="300" height="150"/>
 </div>
 The estimated branches for the species tree are as shown below left. Note the longer branch is 0.75 - 50 gene trees are 0.5 for this branch and 50 gene trees are 1 for this branch. All gene tree branch lengths are used because all gene trees are congruent with the species tree. This is also reflected in the information tree shown below right, where all branch lengths are 100. 
 <div align="left">
-  <img src="images/Result_1_branch_lengths.png" width="300"/>
-  <img src="images/Result_1_information.png" width="300"/>
+  <img src="images/Result_1_branch_lengths.png" width="300" height="150"/>
+  <img src="images/Result_1_information.png" width="300" height="150"/>
 </div>
 
 ### Simple case with some incongruence
 There are 100 gene trees, 50 are like the one on the left, 50 are like the one on the right. The species tree has the branching order/topology of the tree on the left i.e. the tree on the right is inconrgurent with species tree.
 <div align="left">
-  <img src="images/Congruent_2.png" width="300"/>
-  <img src="images/Congruent_2b.png" width="300"/>
+  <img src="images/Congruent_2.png" width="300" height="150"/>
+  <img src="images/Congruent_2b.png" width="300" height="150"/>
 </div>
 Therefore in this case, the longer branch in the incongruent gene tree does not contribute to the estimate of any branch length in the species tree. Note this is also represented in the information tree where only 50 trees contribute branch lenght information in the ((A,B),(C,D)).
 <div align="left">
-  <img src="images/Result_2_branch_lengths.png" width="300"/>
-  <img src="images/Result_2_information_tree.png" width="300"/>
+  <img src="images/Result_2_branch_lengths.png" width="300" height="150"/>
+  <img src="images/Result_2_information_tree.png" width="300" height="150"/>
 </div>
 
 ### Another case with some incongruence
 In this case, we have a different pattern of incongruence. Same situation, 50 gene trees are incongruent, 50 are congruent.
 <div align="left">
-  <img src="images/Congruent_3.png" width="300"/>
-  <img src="images/Congruent_3b.png" width="300"/>
+  <img src="images/Congruent_3.png" width="300" height="150"/>
+  <img src="images/Congruent_3b.png" width="300" height="150"/>
 </div>
 The incongruent clade is subtended by the longer branch but is ignored when calculating the branch lengths in the species tree. Note how there are a lot of 50s in the information tree. This is because all these branches are all impacted by the incongruence.
 <div align="left">
-  <img src="images/Result_3_branch_lengths.png" width="300"/>
-  <img src="images/Result_3_information_tree.png" width="300"/>
+  <img src="images/Result_3_branch_lengths.png" width="300" height="150"/>
+  <img src="images/Result_3_information_tree.png" width="300" height="150"/>
 </div>
 
 ### Limited sampling that does not matter
 The species tree is a little bigger. Consider the branch subtending the clade of ((C1,C2),(D1,D2)). 50 of the gene trees only have C1 and D1.
 <div align="left">
-  <img src="images/Congruent_4.png" width="300"/>
-  <img src="images/Congruent_4b.png" width="300"/>
+  <img src="images/Congruent_4.png" width="300" height="150"/>
+  <img src="images/Congruent_4b.png" width="300" height="150"/>
 </div>
 The trees with C1 and D1 are still used for estimating the length of the branch subtending ((C1,C2),(D1,D2)) in the species tree. As such, that branch has a length of 0.75 in thespecies tree (0.5 in the fully sampled tree, and 1 in the incompletely sampled tree). You can see what is going on in the information tree too.
 <div align="left">
-  <img src="images/Result_4_branch_lengths.png" width="300"/>
-  <img src="images/Result_4_information_tree.png" width="300"/>
+  <img src="images/Result_4_branch_lengths.png" width="300" height="150"/>
+  <img src="images/Result_4_information_tree.png" width="300" height="150"/>
 </div>
 
 ### Limited sampling that does matter
 In this case there is also limited sampling in half the gene trees. The limited sampling tree is missing D1 and D2. 50 gene trees are like this (below right), 50 are fully sampled (below left).
 <div align="left">
-  <img src="images/Congruent_5.png" width="300"/>
-  <img src="images/Congruent_5b.png" width="300"/>
+  <img src="images/Congruent_5.png" width="300" height="150"/>
+  <img src="images/Congruent_5b.png" width="300" height="150"/>
 </div>
 The limited sampling tree does not provide any useful information about the branch subtending the clade of ((C1,C2),(D1,D2)). It therefore does not contribute to the estimation of branch lengths in the species tree. Again, the information tree can be useful for seeing what is going on.
 <div align="left">
-  <img src="images/Result_5_branch_lengths.png" width="300"/>
-  <img src="images/Result_5_information_tree.png" width="300"/>
+  <img src="images/Result_5_branch_lengths.png" width="300" height="150"/>
+  <img src="images/Result_5_information_tree.png" width="300" height="150"/>
 </div>
 
 ### An example with the weighted mean option
 This has the same gene tree topologies as for the first example. However, the gene trees with the long branch subtending (C,D) are estimated from loci with 200 sites. The other gene trees by contrast are estimated from loci with 100 sites. You can weight the branch length estimates according to this (i.e. give more weight to gene trees estimated from longer partitions). When you do this you get the result shown below.
-
+<div align="left">
+  <img src="images/Result_6_branch_lengths.png" width="300" height = "150"/>
+  <img src="images/Result_6_information_tree.png" width="300" height = "150"/>
+</div>
 
 
 
