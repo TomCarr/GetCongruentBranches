@@ -78,6 +78,12 @@ The limited sampling tree does not provide any useful information about the bran
   <img src="images/Result_5_information_tree.png" width="300"/>
 </div>
 
+### An example with the weighted mean option
+This has the same gene tree topologies as for the first example. However, the gene trees with the long branch subtending (C,D) are estimated from loci with 200 sites. The other gene trees by contrast are estimated from loci with 100 sites. You can weight the branch length estimates according to this (i.e. give more weight to gene trees estimated from longer partitions). When you do this you get the result shown below.
+
+
+
+
 
 
 
