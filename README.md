@@ -84,7 +84,7 @@ This has the same gene tree topologies as for the first example. However, the ge
   <img src="images/Result_6_branch_lengths.png" width="300" height = "150"/>
   <img src="images/Result_6_information_tree.png" width="300" height = "150"/>
 </div>
-
+In this case the branch lengths in the information tree are the number of loci multiplied by the length of the loci.
 
 
 
