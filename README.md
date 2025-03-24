@@ -74,7 +74,7 @@ In this case there is also limited sampling in half the gene trees. The limited 
 </div>
 The limited sampling tree does not provide any useful information about the branch subtending the clade of ((C1,C2),(D1,D2)). It therefore does not contribute to the estimation of branch lengths in the species tree. Again, the information tree can be useful for seeing what is going on.
 <div align="left">
-  <img src="images/Result_5_branch_lengths.png" width="300" height="150"/>
+  <img src="images/Congruent_5.png" width="300" height="150"/>
   <img src="images/Result_5_information_tree.png" width="300" height="150"/>
 </div>
 
