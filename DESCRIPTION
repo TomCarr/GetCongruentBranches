@@ -3,6 +3,7 @@ Title: Estimate branch lengths in a species tree from congruent branches in the 
 Version: 1.0
 Authors@R: 
     person("Tom", "Carruthers", "tomcarruthers94@gmail.com", role = c("aut", "cre"))
+Maintainer: Tom Carruthers <tomcarruthers94@gmail.com
 Description: Searches for branches accross all gene trees that are congruent with each species tree branch. Species tree branch lengths are then calculated as the mean accross all gene tree branches that are congruent with that species tree branch. 
 License: GPLv3
 Encoding: UTF-8
