@@ -15,7 +15,7 @@ There is one function: `get_congruent_branch_length_tree`
 ## Usage 
 `species_tree_name` the file name of the species tree on which you will map the branch lengths  
 `gene_tree_directory` the directory in which your gene trees are located  
-`zero_sample_overule` boolean, TRUE will continue to output branch lengths even if there are no gene trees congruent for one or more species tree branches. Such branches will have a length of 0. If FALSE it will exit.  
+`zero_sample_overule` TRUE will continue to output branch lengths even if there are no gene trees congruent for one or more species tree branches. Such branches will have a length of 0. If FALSE it will exit.  
 `loci_lengths` This can just be set as 1, in which case every gene tree is treated equally. Alternatively, a named vector of the length of the alignment for each gene tree can be used (or any other criteria on which you might want to weight the gene trees). names(loci_length) should be the file name of the relevent gene tree. This allows a weighted mean to be estimated.  
 `output_tree_name` file name for output branch length tree. A further "information tree" will also be written. On this tree, the branch lengths correspond to the number of gene trees that provided information for a given species tree branch. i.e. the number that were congruent.  
 
