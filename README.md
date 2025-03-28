@@ -6,14 +6,14 @@ The method works by searching for branches accross all gene trees that are congr
 This method is useful because often there is not a single gene tree entirely congruent with the species tree. Therefore, just selecting the loci with gene trees that are most congruent with the species tree, as in SortaDate, can be a problem, because these gene trees often still have quite a lot of incongruence.  
 
 There is one function: `get_congruent_branch_length_tree`   
-`get_congruent_branch_length_tree(species_tree,`  
+`get_congruent_branch_length_tree(species_tree_name,`  
 `  gene_tree_directory,`  
 `  zero_sample_overrule,`  
 `  loci_lengths,`  
 `  output_tree_name)`  
 
 ## Usage 
-`species_tree` the file name of the species tree on which you will map the branch lengths  
+`species_tree_name` the file name of the species tree on which you will map the branch lengths  
 `gene_tree_directory` the directory in which your gene trees are located  
 `zero_sample_overule` boolean, TRUE will continue to output branch lengths even if there are no gene trees congruent for one or more species tree branches. Such branches will have a length of 0. If FALSE it will exit.  
 `loci_lengths` This can just be set as 1, in which case every gene tree is treated equally. Alternatively, a named vector of the length of the alignment for each gene tree can be used (or any other criteria on which you might want to weight the gene trees). names(loci_length) should be the file name of the relevent gene tree. This allows a weighted mean to be estimated.  
