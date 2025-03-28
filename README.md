@@ -1,12 +1,12 @@
 # GetCongruentBranches
-This is a user-friendly version of the "congruent branches" method we introduced in [Carruthers et al. 2022](https://doi.org/10.1093/sysbio/syac012) page 1130. It is also used in the study of the mountain flowering plant genus *Saxifraga* in [Carruthers at al. 2024](https://doi.org/10.1038/s41467-024-45289-w).
+This is a user-friendly version of the "congruent branches" method in [Carruthers et al. 2022](https://doi.org/10.1093/sysbio/syac012) page 1130. It is also used in the study of *Saxifraga* [Carruthers at al. 2024](https://doi.org/10.1038/s41467-024-45289-w).
 
 The method works by searching for branches accross all gene trees that are congruent with each species tree branch. Species tree branch lengths are then calculated as the mean accross all gene tree branches that are congruent with that species tree branch. There are some simple worked examples below.   
 
 This method is useful because often there is not a single gene tree entirely congruent with the species tree. Therefore, just selecting the loci with gene trees that are most congruent with the species tree, as in SortaDate, can be a problem, because these gene trees often still have quite a lot of incongruence.  
 
-There is one function: `get_congruent_branch_length_tree`   
-`get_congruent_branch_length_tree(species_tree_name,`  
+There is one function: `GetCongruentBranches`   
+`GetCongruentBranches(species_tree_name,`  
 `  gene_tree_directory,`  
 `  zero_sample_overrule,`  
 `  loci_lengths,`  
@@ -43,7 +43,7 @@ There are 100 gene trees, 50 are like the one on the left, 50 are like the one o
   <img src="images/Congruent_2.png" width="300" height="150"/>
   <img src="images/Congruent_2b.png" width="300" height="150"/>
 </div>
-In this case, the longer branch in the incongruent gene tree does not contribute to the estimate of any branch length in the species tree. Note this is also represented in the information tree where only 50 trees contribute branch lenght information in the ((A,B),(C,D)) clade.
+In this case, the longer branch in the incongruent gene tree does not contribute to the estimate of any branch length in the species tree. Note this is also represented in the information tree where only 50 trees contribute branch length information in the ((A,B),(C,D)) clade.
 <div align="left">
   <img src="images/Result_2_branch_lengths.png" width="300" height="150"/>
   <img src="images/Result_2_information_tree.png" width="300" height="150"/>
