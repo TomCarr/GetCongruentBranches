@@ -19,6 +19,8 @@ There is one function: `get_congruent_branch_length_tree`
 `loci_lengths` This can just be set as 1, in which case every gene tree is treated equally. Alternatively, a named vector of the length of the alignment for each gene tree can be used (or any other criteria on which you might want to weight the gene trees). names(loci_length) should be the file name of the relevent gene tree. This allows a weighted mean to be estimated.  
 `output_tree_name` file name for output branch length tree. A further "information tree" will also be written. On this tree, the branch lengths correspond to the number of gene trees that provided information for a given species tree branch. i.e. the number that were congruent.  
 
+It requires phytools.
+
 The method can be used with any type of branch length. Although as discussed in [Carruthers et al. 2022](https://doi.org/10.1093/sysbio/syac012), if using with time branch lengths the output tree will not necessarily be ultrametric. Therefore the method is probably more useful to get molecular branch lengths, or perhaps rates, before inputting the tree it produces into something like treePL in order to get divergence times. 
 
 ## Some simple worked examples
