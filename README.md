@@ -1,7 +1,7 @@
 # GetCongruentBranches
 This is a user-friendly version of the "congruent branches" method in [Carruthers et al. 2022](https://doi.org/10.1093/sysbio/syac012) page 1130. It is also used in the study of *Saxifraga* [Carruthers at al. 2024](https://doi.org/10.1038/s41467-024-45289-w).
 
-The method works by searching for branches accross all gene trees that are congruent with each species tree branch. Species tree branch lengths are then calculated as the mean accross all gene tree branches that are congruent with that species tree branch. There are some simple worked examples below.   
+The method finds branches accross all gene trees that are congruent with each species tree branch. Species tree branch lengths are then calculated as the mean accross all gene tree branches that are congruent with that species tree branch. There are some worked examples below.   
 
 This method is useful because often there is not a single gene tree entirely congruent with the species tree. Therefore, just selecting the loci with gene trees that are most congruent with the species tree, as in SortaDate, can be a problem, because these gene trees often still have quite a lot of incongruence.  
 
