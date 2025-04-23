@@ -16,14 +16,14 @@ There is one function: `GetCongruentBranches`
 `species_tree_name` the file name of the species tree on which you will map the branch lengths  
 `gene_tree_directory` the directory in which your gene trees are located  
 `zero_sample_overule` TRUE will continue to output branch lengths even if there are no gene trees congruent for one or more species tree branches. Such branches will have a length of 0. If FALSE it will exit.  
-`loci_lengths` This can just be set as 1, in which case every gene tree is treated equally. Alternatively, a named vector of the length of the alignment for each gene tree can be used (or any other criteria on which you might want to weight the gene trees). names(loci_length) should be the file name of the relevent gene tree. This allows a weighted mean to be estimated.  
+`loci_lengths` This can just be set as 1, in which case every gene tree is treated equally. Alternatively, a named vector of the length of the alignment for each gene tree can be used (or any other criteria on which you might want to weight the gene trees). names(loci_length) should be the file names of the relevent gene trees. This allows a weighted mean to be estimated.  
 `output_tree_name` file name for output branch length tree. A further "information tree" will also be written. On this tree, the branch lengths correspond to the number of gene trees that provided information for a given species tree branch. i.e. the number that were congruent.  
 
 It requires phytools.
 
 The method can be used with any type of branch length. Although as discussed in [Carruthers et al. 2022](https://doi.org/10.1093/sysbio/syac012), if using with time branch lengths the output tree will not necessarily be ultrametric. Therefore the method is probably more useful to get molecular branch lengths, or perhaps rates, before inputting the tree it produces into something like treePL in order to get divergence times. 
 
-## Some simple worked examples
+## Some examples
 These are not necessarily biologically realistic. They are just illustrative of how the method works.
 ### No incongruence
 There are 100 gene trees, 50 are like the one on the left, 50 are like the one on the right. The species tree has the same branching order/topology as these gene trees.
